@@ -115,7 +115,7 @@ var reload      = browserSync.reload; // For manual browser reload.
     injectChanges: true,
 
     // Use a specific port (instead of the one auto-detected by Browsersync).
-    // port: 3003,
+    port: 3003,
 
   } );
  });
