@@ -1,0 +1,36 @@
+/*!
+Theme Name: STTBCSTL
+Theme URI: http://www.sttbcstl.org/
+Author: Christophe Rudyj
+Author URI: http://chrisrudyj.me
+Description: Site of the Montreal Pokemon League 
+Version: 0
+Text Domain: plmtl
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i|Oswald:300,400,700&subset=latin-ext';
+@import  "lib/lib";
+@import  "lib/mixins";
+
+
+$breakpoints: (
+  'small'     : 320px,
+  'med'       : 640px,
+  'large'     : 920px,
+  'wide'      : 1200px,
+  'mega'      : 1400px,
+  // ...
+  );
+
+// Configuring Susy Defaults
+$susy: (
+  columns:12,
+  global-box-sizing: border-box,
+  utter-position: split,
+  debug: (image: show)
+  );
+
+// Color 
+
+$text       : #000000;
+$text-invert: #f4f4f4;
