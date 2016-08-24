@@ -13,5 +13,3 @@ get_currentuserinfo(); if ( is_user_logged_in() ) {?>
   <?php } else { ?>
 <a href="<?php bloginfo('wpurl'); ?>/wp-login.php"><img src="<?php bloginfo('wpurl'); ?>/wp-content/themes/bcstl/images/bcstl_connect.png" alt="Se connecter" width="244" height="50"></a>
 <?php } ?>
-
-<!-- 5wS3Z82-P@ -->

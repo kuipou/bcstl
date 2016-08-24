@@ -4,7 +4,9 @@ get_sidebar(); ?>
 <section id="page">
 <!-- index -->
 <h1 id="he">Actualités</h1>
-<?php the_mob();?>
+<?php 
+the_mob();
+?>
 <div id="news-wrap">
 <?php if (have_posts()) : while (have_posts()) : the_post(); 
 $category = get_the_category();  ?>
