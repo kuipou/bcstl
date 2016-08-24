@@ -1,13 +1,21 @@
-/*!
-Theme Name: STTBCSTL
-Theme URI: http://www.sttbcstl.org/
+@import url(fonts/jr/stylesheet.css);
+@import url(fonts/pm/stylesheet.css);
+@import url(fonts/nt/stylesheet.css);
+@import url(fonts/pt/stylesheet.css);
+/*
+Theme Name: BCSTL
+Theme URI: http://sttlh.org
+Description: 
 Author: Christophe Rudyj
-Author URI: http://chrisrudyj.me
-Description: Site of the Montreal Pokemon League 
-Version: 0
-Text Domain: plmtl
-*/
+Author URI: http://seriadesign.com/
+Version: 0.9
+Tags:
+&nbsp;
+License: Seria-CSN
+License URI:
 
+General comments (optional).
+*/
 @import 'https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i|Oswald:300,400,700&subset=latin-ext';
 @import  "lib/lib";
 @import  "lib/mixins";
@@ -34,3 +42,6 @@ $susy: (
 
 $text       : #000000;
 $text-invert: #f4f4f4;
+
+@import "header";
+@import "old";
